@@ -44,6 +44,7 @@ export default function Navbar() {
         {/*use for cart show O value  */}
         <div className="nav-cart-count">0</div>
       </div>
+      
 
     </div>
   )
