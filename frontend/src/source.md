@@ -42,8 +42,6 @@ date : 19/7/24
      3. implement routes topic code in menu items .. in navbar.jsx file
      
      <!-- Link tag use for routes topic -->   ..pending learning 
-
-
-   #  <!-- now i am stop in 33:10 in video -->
+     <!-- now i am stop in 33:10 in video -->
 
 
