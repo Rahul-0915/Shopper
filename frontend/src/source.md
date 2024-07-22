@@ -45,8 +45,31 @@ date : 19/7/24
      <!-- now i am stop in 33:10 in video -->
 
    * date 22-7-2024
-   create hero folder in component folder 
-   in hero folder create one file hero.jsx
+  * Hero Section create new arrivals like slider
+   ->create hero folder in component folder .
+   ->In hero folder create one file Hero.jsx
+   ->another file is hero.css for css style
+   <!-- add component to shop.jsx file <Hero> -->
+   add html to hero.jsx
+   after apply css for hero.jsx
+
+
+   * Item section
+   create Item folder in component folder.
+   ->in Item folder create one Item.jsx file
+   ->and also create Item.css file
+   ->Add html to item.jsx
+      -> in this file i am use props(something like function that was provide by user or admin panel just call and provide information ) concept .
+      ->in this props data will be come to admin panel.
+   ->add css to item.css
+
+*Popular section
+create Popular folder in component folder.
+->In popular folder create tow file Popular.jsx and popular.css 
+->Add html and css into this file
+* in this file popular.jsx will use data.js file 
+<!-- import data_product from '../Assets/data.js' -->
+
    
 
 
