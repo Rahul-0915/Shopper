@@ -24,6 +24,7 @@
     font-size: 38px;
     font-weight: 600;
     text-decoration: underline;
+    
 }
 
 /* css for nav-menu div */
@@ -116,7 +117,7 @@
     font-size: x-large;
     font-weight: bold;
     border-radius: 50%;
-    color: black;
+    color: white;
 
 }
 
