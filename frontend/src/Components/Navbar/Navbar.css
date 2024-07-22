@@ -6,7 +6,7 @@
     box-shadow: 0 1px 3px -2px black;
 }
 /*color change*/
-
+  
 
 /* nav-logo div css */
 .nav-logo {
@@ -20,6 +20,7 @@
     color: #171717;
     font-size: 38px;
     font-weight: 600;
+    text-decoration: underline;
 }
 
 /* css for nav-menu div */
