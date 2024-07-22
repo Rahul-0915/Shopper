@@ -77,6 +77,6 @@ in the popular div use javascript map function (it is same the call json) .
    create offers folder in component folder.
    ->in  offers folder create two file Offers.jsx and Offers.css
    ->add HTML and css into this file
-   
 
+<!-- now i am stop in 1.00.55 in video -->
 
