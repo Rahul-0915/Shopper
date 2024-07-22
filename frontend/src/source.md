@@ -69,7 +69,14 @@ create Popular folder in component folder.
 ->Add html and css into this file
 * in this file popular.jsx will use data.js file 
 <!-- import data_product from '../Assets/data.js' -->
+in the popular div use javascript map function (it is same the call json) .
 
-   
 
+
+   *offers section
+   create offers folder in component folder.
+   ->in  offers folder create two file Offers.jsx and Offers.css
+   ->add HTML and css into this file
+
+<!-- now i am stop in 1.00.55 in video -->
 
