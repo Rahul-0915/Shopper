@@ -44,4 +44,9 @@ date : 19/7/24
      <!-- Link tag use for routes topic -->   ..pending learning 
      <!-- now i am stop in 33:10 in video -->
 
+   * date 22-7-2024
+   create hero folder in component folder 
+   in hero folder create one file hero.jsx
+   
+
 

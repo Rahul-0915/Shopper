@@ -4,9 +4,12 @@
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+    position:fixed;
+    background-color: white;
+    width: 100%;
+    top:0;
+
 }
-/*color change*/
-  
 
 /* nav-logo div css */
 .nav-logo {
