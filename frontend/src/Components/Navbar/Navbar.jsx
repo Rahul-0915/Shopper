@@ -18,8 +18,8 @@ export default function Navbar() {
 
       {/* use for logo and name */}
       <div className="nav-logo">
-        <img src={logo} alt="" />
-        <p>SHOPPER</p>
+        <Link to="/"><img src={logo} alt="" /></Link>
+       <Link className='links' to="/"><p> SHOPPER</p></Link>
       </div>
 
       {/* use for menu itmes  */}
