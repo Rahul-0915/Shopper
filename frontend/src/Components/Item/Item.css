@@ -1,11 +1,15 @@
 /*div class item css*/
 .item{
-      width:350px;
-      
+      width:230px;
+      height: 300px;
+}
+.item img{
+      height: 250px;
+      width: 200px;
 }
 /*div class p tag css*/
 .item p{
-      margin:6px 0px;
+      margin:10px 0px;
 }
 /*div class item prices css*/
 .item-prices{
@@ -15,13 +19,13 @@
 /*div class item price new  css*/
 .item-price-new{
       color:#374151;
-      font-size:18px;
+      font-size:15px;
       font-weight: 600;
 }
 /*div class item price old  css*/
 .item-price-old{
       color:#8c8c8c;
-      font-size: 18px;
+      font-size: 15px;
       font-weight: 500;
       text-decoration: line-through;
 }

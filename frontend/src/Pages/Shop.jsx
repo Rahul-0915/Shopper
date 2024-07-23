@@ -6,8 +6,8 @@ import Offers from '../Components/Offers/Offers'
 export default function Shop() {
   return (
     <div>
-      <Hero/>
-     <Popular/>
+    <Hero/>
+    <Popular/>
     <Offers/>
     </div>
   )
