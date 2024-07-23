@@ -1,6 +1,7 @@
 /*div class item css*/
 .item{
       width:350px;
+      
 }
 /*div class p tag css*/
 .item p{
@@ -28,4 +29,6 @@
 .item:hover{
       transform: scale(0.9);
       transition: 0.6s;
+      position:static;
+      
 }

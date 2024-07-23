@@ -1,11 +1,13 @@
 
 /*popular div css*/
-.popular{
+.popular{ 
       display: flex;
       flex-direction: column;
       align-items: center;
       gap:10px;
       height: 90vh;
+      
+      
 }
 /*popular class h1 css*/
 .popular  h1{
@@ -25,4 +27,5 @@
       margin-top: 50px;
       display:flex;
       gap:30px;
+      
 }
