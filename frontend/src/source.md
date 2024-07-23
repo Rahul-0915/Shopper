@@ -80,3 +80,7 @@ in the popular div use javascript map function (it is same the call json) .
 
 <!-- now i am stop in 1.00.55 in video -->
 
+
+* Date:-23-07-2024
+
+
