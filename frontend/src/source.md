@@ -82,5 +82,19 @@ in the popular div use javascript map function (it is same the call json) .
 
 
 * Date:-23-07-2024
+all css change for 100 zoom for browser.
+
+
+*New Collections
+for this create one Folder NewCollections in component
+->In this folder create two file NewCollections.jsx and NewCollections.css
+in NewCollections.jsx use  newcollection.js data for map 
+Item file also use for this it is same like popular section
+
+*News Letter
+
+for this create one Folder NewsLetter in component
+->In this folder create two file NewsLetter.jsx and NewsLetter.css
+
 
 
