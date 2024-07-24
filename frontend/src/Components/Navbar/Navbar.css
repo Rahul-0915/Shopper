@@ -106,13 +106,13 @@
 /* button click efect */
 .nav-login-cart button:active {
     /* background: #f3f3f3 */
-    background: #ff4141c9;
-    
-}
+    background: cadetblue;
+}    
+
 
 /* log-in button hover efefect self */
 .nav-login-cart button:hover {
-    color: lightseagreen;
+    color: black;
 }
 
 /* use for cart counte {0} value */
