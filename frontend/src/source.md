@@ -96,5 +96,21 @@ Item file also use for this it is same like popular section
 for this create one Folder NewsLetter in component
 ->In this folder create two file NewsLetter.jsx and NewsLetter.css
 
+<!-- date 24-7-24 -->
+<!-- strat in 1:22:10 -->
+
+*context
+
+first create new file shopcontext.jsx in context folder 
+after import all_product file 
+write code..
+that after create new folder in pages folder
+that after create new css file shopcategory.css  in css folder
+that after go index.js file and app componet warp in shopcontextprovider tag
+after web go app.js and import banner and set the banners in page link
+then after we go shopcategroy.jsx and write html code
+
+
+
 
 
