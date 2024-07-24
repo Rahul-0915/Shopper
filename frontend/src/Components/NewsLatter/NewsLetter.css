@@ -10,7 +10,7 @@
       padding: 0px 140px;
       margin-bottom: 100px;
       /* background:linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%); */
-      background:  linear-gradient(180deg, cadetblue 10%, black 110%);
+      background:  linear-gradient(180deg, cadetblue 10%, rgb(95, 92, 92) 110%);
       gap:30px;
       
 }
