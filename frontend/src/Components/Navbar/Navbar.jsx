@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import './Navbar.css';
 // import logonew2 from '../Assets/logonew2.png';
 import logo from '../Assets/logo.png';
-import cart_icon from '../Assets/cart_icon.png'
+import cart3 from '../Assets/cart3.png';
+
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
@@ -20,7 +21,7 @@ export default function Navbar() {
       {/* use for logo and name */}
       <div className="nav-logo">
         <Link to="/"><img src={logo} alt="" /></Link>
-       <Link className='links' to="/"><p> SHOPPER</p></Link>
+       <Link className='links' to="/"><p>Shopsy</p></Link>
       </div>
 
       {/* use for menu itmes  */}
@@ -39,7 +40,7 @@ export default function Navbar() {
         </Link>
 
         <Link to='/Cart'>
-          <img src={cart_icon} alt="" />
+          <img src={cart3} alt="" />
         </Link>
 
         {/*use for cart show O value  */}

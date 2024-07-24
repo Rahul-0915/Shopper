@@ -44,6 +44,7 @@
       font-family: poppins;
       font-size: 16px;
 }
+
 /* newsletter div btn tag css*/
 .newsletter div button{
       width:210px;
@@ -53,4 +54,8 @@
       color: white;
       font-size: 20px;
       cursor: pointer;
+}
+/* button hover effect */
+.newsletter div button:hover{
+      color: lightseagreen;
 }

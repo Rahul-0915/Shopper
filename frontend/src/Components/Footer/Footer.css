@@ -18,6 +18,8 @@
       color:#383838;
       font-size: 46px;
       font-weight: 700;
+      text-decoration: underline;
+      color: lightblue;
 }
 /*footer links ul tag css*/
 .footer-links{
@@ -26,6 +28,9 @@
       gap: 50px;
       color: #252525;
       font-size: 20px;
+}
+.footer-links li:hover{
+      color: lightseagreen;
 }
 /*footer links li tag css*/
 .footer-links li{

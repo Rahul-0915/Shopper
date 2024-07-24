@@ -9,6 +9,8 @@
     width: 100%;
     height:35px;
     top:0;
+    background-color: black;
+    color: white;
 
 }
 
@@ -25,6 +27,7 @@
     font-size: 30px;
     font-weight: 600;
     text-decoration: underline;
+    color:lightblue;
     
 }
 
@@ -47,6 +50,7 @@
     align-items: center;
     justify-content: center;
     gap: 3px;
+    
 }
 
 
@@ -68,6 +72,9 @@
     display: flex;
     align-items: center;
     gap: 45px;
+    margin-left: 40px;
+    /* background-color: red; */
+    
    
 }
 
@@ -83,11 +90,14 @@
     font-weight: 500;
     background-color: #ffffff;
     cursor: pointer;
-    /*understand*/
+    
 }
 .nav-login-cart img{
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-top: 5px;
+    margin-left: 40px;
+    
 }
 
 /* button click efect */
@@ -99,7 +109,7 @@
 
 /* log-in button hover efefect self */
 .nav-login-cart button:hover {
-    color: black;
+    color: lightseagreen;
 }
 
 /* use for cart counte {0} value */
@@ -131,12 +141,12 @@
 /* use for nav-menu li tag links  */
 .links {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* menu item list links hover self */
 .links:hover {
     color: black;
     /* color: #626262; */
-    color: red;
+    color:lightseagreen;
 }
