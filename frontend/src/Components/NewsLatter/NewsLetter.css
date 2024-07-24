@@ -10,15 +10,16 @@
       padding: 0px 140px;
       margin-bottom: 100px;
       /* background:linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%); */
-      background:  linear-gradient(180deg, cadetblue 10%, #e1ffea22 100%);
+      background:  linear-gradient(180deg, cadetblue 10%, black 110%);
       gap:30px;
       
 }
 /*for newsletter class h1 */
 .newsletter h1{
-      color:#454545;
+      color:black;
       font-size: 55px;
       font-weight: 600;
+      
 }
 /*for newsletter class p */
 .newsletter p{

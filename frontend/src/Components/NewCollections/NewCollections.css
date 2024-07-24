@@ -15,10 +15,11 @@
 }
 /*new-collections class hr tag css*/
 .new-collections hr{
-      width:200px;
-      height: 6px;
+      width:250px;
+      height: 8px;
       border-radius: 10px;
-      background: #252525;
+       background:  linear-gradient(90deg, rgb(148, 228, 230) 5%, rgb(71, 63, 63) 100%);
+       
 }
 /*collection class css*/
 .collections{
