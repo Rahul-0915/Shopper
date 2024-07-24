@@ -48,6 +48,7 @@
             
       transition: 1s;
       border: 0.2px solid gainsboro;
-      box-shadow:5px 5px 10px 10px gainsboro ;
+      box-shadow:5px 5px 5px 5px gainsboro;
+      
 
 }
