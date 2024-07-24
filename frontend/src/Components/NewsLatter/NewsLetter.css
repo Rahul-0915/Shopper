@@ -1,7 +1,7 @@
 /*for newsletter class css*/
 .newsletter{
       width:65%;
-      height: 60vh;
+      height: 70vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -9,9 +9,10 @@
       margin: auto;
       padding: 0px 140px;
       margin-bottom: 100px;
-      /* background:linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%); */
-      background:  linear-gradient(180deg, cadetblue 10%, rgb(95, 92, 92) 110%);
+      background:linear-gradient(180deg,cadetblue 8%,#e1ffea22 110%);
+      /* background:  linear-gradient(180deg, cadetblue 100px, rgb(95, 92, 92) 90%); */
       gap:30px;
+
       
 }
 /*for newsletter class h1 */
@@ -23,7 +24,7 @@
 }
 /*for newsletter class p */
 .newsletter p{
-      color:#454545;
+      color:black;
       font-size: 20px;
 }
 /*for newsletter class div*/
@@ -40,6 +41,7 @@
 /*for input type email css */
 .newsletter input{
       width: 500px;
+      
       margin-left: 30px;
       border: none;
       outline: none;

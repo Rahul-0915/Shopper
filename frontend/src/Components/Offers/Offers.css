@@ -9,7 +9,7 @@
       padding: 0px 140px;
       margin-bottom: 90px;
       /* background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%); */
-      background:  linear-gradient(180deg, cadetblue 5%, #e1ffea22 90%);
+      background:  linear-gradient(180deg, cadetblue 5%, #e1ffea22 60%);
 }
 /*offers left part css*/
 .offers-left{
@@ -52,5 +52,5 @@
       padding-top: 50px;
 }
 .offers-right img{
-      height: 350px;
+      height: 320px;
 }
