@@ -2,7 +2,8 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 // import logonew2 from '../Assets/logonew2.png';
-import logo from '../Assets/logo.png';
+// import logo from '../Assets/logo.png';
+import logo from '../Assets/bag_logo.png';
 import cart3 from '../Assets/cart3.png';
 
 import { Link } from 'react-router-dom'

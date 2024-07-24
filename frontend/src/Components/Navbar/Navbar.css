@@ -20,6 +20,9 @@
     align-items: center;
     gap: 10px;
 }
+.nav-logo img{
+    width: 100px;
+}
 
 /* use for nav-logo p tag css */
 .nav-logo p {
