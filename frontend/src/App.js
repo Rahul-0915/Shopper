@@ -2,16 +2,13 @@ import './App.css';
 import Navbar from "./Components/Navbar/Navbar";
 // it used for routes topic..
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ShopCategory from './Pages/ShopCategory';
+
 import Product from './Pages/Product';
 import LoginSignup from './Pages/LoginSignup';
 import Shop from './Pages/Shop';
 import Cart from './Pages/Cart';
 import Footer from './Components/Footer/Footer';
 // banners
-import men_banner from './Components/Assets/banner_mens.png';
-import Women_baneer from './Components/Assets/banner_women.png';
-import kid_banner from './Components/Assets/banner_kids.png';
 
 
 function App() {
@@ -22,9 +19,9 @@ function App() {
         <Navbar />
         <Routes>
         <Route path='/' element={<Shop/>}/>
-          <Route path='/Mens' element={<ShopCategory banner={men_banner} Category="Men" />}/>
-          <Route path='/Womens' element={<ShopCategory banner={Women_baneer} Category="Women" />}/>
-          <Route path='/Kids' element={<ShopCategory banner={kid_banner} Category="Kids" />}/>
+          <Route path='/Mens' element/>
+          <Route path='/Womens' element/>
+          <Route path='/Kids' element/>
           <Route path='/Product' element={<Product/>}/>
           <Route path=':productId' element={<Product/>}/>
         <Route/>
