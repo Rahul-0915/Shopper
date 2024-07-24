@@ -22,7 +22,7 @@ export default function Navbar() {
       {/* use for logo and name */}
       <div className="nav-logo">
         <Link to="/"><img src={logo} alt="" /></Link>
-       <Link className='links' to="/"><p>Shopsy</p></Link>
+       <Link className='links' to="/"><p>APRStore</p></Link>
       </div>
 
       {/* use for menu itmes  */}

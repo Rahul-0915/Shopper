@@ -18,10 +18,11 @@
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.5px;
 }
 .nav-logo img{
     width: 100px;
+    
 }
 
 /* use for nav-logo p tag css */
@@ -30,7 +31,8 @@
     font-size: 30px;
     font-weight: 600;
     text-decoration: underline;
-    color:lightblue;
+    
+    background:  linear-gradient(20deg, lightblue 20%,blue 30%,red 5%, rgb(210, 223, 64) 80%);
     
 }
 
