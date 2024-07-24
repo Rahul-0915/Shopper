@@ -2,7 +2,7 @@
 .hero{
       height:100vh;
       /* background:  linear-gradient(180deg, #fde1ff, #e1ffea22 130%); */
-      background:  linear-gradient(180deg, cadetblue 10%, #e1ffea22 90%);
+      background:  linear-gradient(180deg, cadetblue 5%, #e1ffea22 60%);
       /* color: cadetblue; */
       display: flex;
 }
