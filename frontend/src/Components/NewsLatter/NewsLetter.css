@@ -9,8 +9,10 @@
       margin: auto;
       padding: 0px 140px;
       margin-bottom: 100px;
-      background:linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%);
+      /* background:linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%); */
+      background:  linear-gradient(180deg, cadetblue 10%, #e1ffea22 100%);
       gap:30px;
+      
 }
 /*for newsletter class h1 */
 .newsletter h1{
