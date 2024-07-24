@@ -103,4 +103,6 @@ or this create one Folder footer in component
 you can add component to app.js file beacuse all page containe footer
 
 
+<!-- stop in 1:39:11 -->
+
 
