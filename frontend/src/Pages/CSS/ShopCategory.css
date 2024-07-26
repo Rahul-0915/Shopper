@@ -3,6 +3,7 @@
       display: block;
       margin: 90px auto;
       width:82%;
+      background:  linear-gradient(90deg, lightblue 20%, white 60%);
 }
 /*indexsort 1-12*/
 .shopcategory-indexSort{
