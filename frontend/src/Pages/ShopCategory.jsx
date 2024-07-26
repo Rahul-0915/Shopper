@@ -24,7 +24,7 @@ const ShopCategory = (props) => {
       {/*shaopcategory-product map js function is use for filter item in this item.jsx file will be use */}
       <div className="shopcategory-products">
         {all_product.map((item,i)=>{
-          if(props.category==item.category)
+          if(props.category===item.category)
           {
             //item key value is use
             return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
