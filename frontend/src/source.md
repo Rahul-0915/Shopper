@@ -105,7 +105,4 @@ you can add component to app.js file beacuse all page containe footer
 
 <!-- stop in 1:39:11 -->
 
-date :26/7/24
-create signup using jsx and css form
- and modify footer 
 
