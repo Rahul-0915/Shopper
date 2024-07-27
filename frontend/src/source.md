@@ -109,3 +109,18 @@ date :26/7/24
 create signup using jsx and css form
  and modify footer 
 
+<!-- start it 1.40.00 -->
+
+* create product page ..
+
+  1. write code product.jsx file
+  2.then create breadcums folder and 
+  3.create bredcum jsx and css file
+  4.import css file in breadcum.jsx
+  5. write code breadcum.jsx and import arrow icon 
+  6.add bredcums tag in product.jsx file with props
+  7.link img with the product..so go to item.jsx and first img tag wrap in Link tag 
+ <!-- display detail is pennding -->
+  <!-- stop -->
+
+
