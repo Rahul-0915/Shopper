@@ -14,6 +14,7 @@ import men_banner from './Components/Assets/banner_mens.png';
 import women_banner from './Components/Assets/banner_women.png';
 import kid_banner from './Components/Assets/banner_kids.png';
 import Product from './Pages/Product';
+import Nopage from './Components/NopageFound';
 
 function App() {
   return (
@@ -22,20 +23,18 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-        <Route path='/' element={<Shop/>}/>
-          <Route path='/Mens' element={<ShopCategory banner={men_banner} category="men"/>}/>
-          <Route path='/Womens' element={<ShopCategory banner={women_banner} category="women"/>}/>
-          <Route path='/Kids' element={<ShopCategory banner={kid_banner} category="kid"/>}/>
-          <Route path="/product/:productId" element={<Product/>}/>
-          <Route/>
-          <Route path='/Cart' element={<Cart/>}/>
-          <Route path='/login' element={<LoginSignup/>}/>
-       
-      </Routes>
-    
- 
-      
-    </BrowserRouter>
+          <Route path='/' element={<Shop />} />
+          <Route path='/Mens' element={<ShopCategory banner={men_banner} category="men" />} />
+          <Route path='/Womens' element={<ShopCategory banner={women_banner} category="women" />} />
+          <Route path='/Kids' element={<ShopCategory banner={kid_banner} category="kid" />} />
+          <Route path='/Product/:productId' element={<Product />} />
+          {/* <Route path=':productId' element={<Product/>}/>  */}
+          <Route path='*' element={<Nopage />} />
+          <Route />
+          <Route path='/Cart' element={<Cart />} />
+          <Route path='/login' element={<LoginSignup />} />
+        </Routes>
+      </BrowserRouter>
     </div >
   );
 }

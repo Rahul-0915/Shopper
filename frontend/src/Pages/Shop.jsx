@@ -10,13 +10,12 @@ import Footer from '../Components/Footer/Footer'
 export default function Shop() {
   return (
     <div>
-    <Hero/>
-    <Popular/>
-    <Offers/>
-    <NewCollections/> 
-    <NewsLetter/>
-    <Footer/>
-  
+      <Hero />
+      <Popular />
+      <Offers />
+      <NewCollections />
+      <NewsLetter />
+      <Footer />
     </div>
   )
 }

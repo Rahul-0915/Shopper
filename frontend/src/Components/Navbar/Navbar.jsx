@@ -22,16 +22,16 @@ export default function Navbar() {
       {/* use for logo and name */}
       <div className="nav-logo">
         <Link to="/"><img src={logo} alt="" /></Link>
-       <Link className='links' to="/"><p>Shopstar</p></Link>
+        <Link className='links' to="/"><p>Shopstar</p></Link>
       </div>
 
       {/* use for menu itmes  */}
       {/* that red line for activepage use onclick () and ternary operater ,and link use to route topic  */}
       <ul className='nav-menu'>
         <li onClick={() => { setmenu("Shop") }}><Link className='links' to="/">Shop</Link>{menu === "Shop" ? <hr /> : <></>}</li>
-        <li onClick={() => { setmenu("Men") }}><Link className='links'  to="/Mens">Men</Link>{menu === "Men" ? <hr /> : <></>}</li>
-        <li onClick={() => { setmenu("Women") }}><Link className='links'  to="/Womens">Women</Link>{menu === "Women" ? <hr /> : <></>}</li>
-        <li onClick={() => { setmenu("Kids") }}><Link className='links'  to="/Kids">Kids</Link>{menu === "Kids" ? <hr /> : <></>}</li>
+        <li onClick={() => { setmenu("Men") }}><Link className='links' to="/Mens">Men</Link>{menu === "Men" ? <hr /> : <></>}</li>
+        <li onClick={() => { setmenu("Women") }}><Link className='links' to="/Womens">Women</Link>{menu === "Women" ? <hr /> : <></>}</li>
+        <li onClick={() => { setmenu("Kids") }}><Link className='links' to="/Kids">Kids</Link>{menu === "Kids" ? <hr /> : <></>}</li>
       </ul>
 
       {/* use for login button and cart icon */}
@@ -50,6 +50,6 @@ export default function Navbar() {
       <br />
       <br />
     </div>
-    
+
   )
 }
