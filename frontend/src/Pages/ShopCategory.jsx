@@ -9,12 +9,12 @@ import Footer from '../Components/Footer/Footer';
 
 //create props and give to the variable Shopcategory
 const ShopCategory = (props) => {
-      const {all_product} = useContext(ShopContext);
+  const { all_product } = useContext(ShopContext);
   return (
     //create one div shop category to add image banner and other data
     <div className='shop-category'>
       {/* banner image*/}
-      <img  className='shopcategory-banner' src={props.banner} alt="" />
+      <img className='shopcategory-banner' src={props.banner} alt="" />
       {/*indexsort div */}
       <div className="shopcategory-indexSort">
         <p>
@@ -27,14 +27,12 @@ const ShopCategory = (props) => {
       </div>
       {/*shaopcategory-product map js function is use for filter item in this item.jsx file will be use */}
       <div className="shopcategory-products">
-        {all_product.map((item,i)=>{
-          if(props.category===item.category)
-          {
+        {all_product.map((item, i) => {
+          if (props.category === item.category) {
             //item key value is use
-            return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
+            return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
           }
-          else
-          {
+          else {
             return null;
           }
         })}
@@ -43,14 +41,14 @@ const ShopCategory = (props) => {
       <div className="shopcategory-loadmore">
         Explore More
       </div>
-<Footer/>
+      <Footer />
     </div>
 
-    
-    
+
+
   );
-  
-  
+
+
 };
 
 
