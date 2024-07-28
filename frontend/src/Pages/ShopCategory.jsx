@@ -5,6 +5,8 @@ import dropdown_icon from '../Components/Assets/dropdown_icon.png';
 import Item from '../Components/Item/Item';
 import Footer from '../Components/Footer/Footer';
 
+
+
 //create props and give to the variable Shopcategory
 const ShopCategory = (props) => {
       const {all_product} = useContext(ShopContext);
@@ -41,7 +43,7 @@ const ShopCategory = (props) => {
       <div className="shopcategory-loadmore">
         Explore More
       </div>
-      <Footer/>
+<Footer/>
     </div>
 
     

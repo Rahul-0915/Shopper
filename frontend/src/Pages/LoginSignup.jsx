@@ -9,7 +9,7 @@ export default function LoginSignup() {
         <h1>Sign up</h1>
         {/* fildes */}
         <div className="loginsignup-fields">
-          <input type="text" name="" id="" placeholder='Your Name' />
+          <input type="text" name="" id="" placeholder='UserName' />
           <input type="email" name="" id="" placeholder='Email Address' />
           <input type="password" name="" id="" placeholder='Password' />
         </div>
