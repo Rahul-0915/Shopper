@@ -15,7 +15,8 @@ export default function Shop() {
     <Offers/>
     <NewCollections/> 
     <NewsLetter/>
-   <Footer/>
+    <Footer/>
+  
     </div>
   )
 }
