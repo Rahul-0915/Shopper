@@ -38,7 +38,7 @@ let new_collections = [
   },
   {
     id: 15,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "AIDAN PAUL Men Regular Fit Washed Spread Collar Casual Shirt",
     image: p5_img,
     new_price: "439",
     old_price: "1,699",
