@@ -20,7 +20,7 @@ let data_product = [
   {id:3,
     name:"swaggish Casual Regular Sleeves Solid Women Brown Top",
     image:p3_img,
-    new_price:"229",
+    new_price:"499",
     old_price:"1,499",
   },
   {id:4,
