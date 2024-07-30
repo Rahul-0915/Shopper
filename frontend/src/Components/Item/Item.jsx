@@ -1,5 +1,6 @@
 import React from 'react';
 import './Item.css';
+// import Footer from '../Footer/Footer';
 const Item = (props) => {
   return (
     
@@ -17,6 +18,8 @@ const Item = (props) => {
       
     </div>
   )
+  
+  
 }
 
 export default Item

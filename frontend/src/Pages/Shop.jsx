@@ -4,6 +4,7 @@ import Popular from '../Components/Popular/Popular'
 import Offers from '../Components/Offers/Offers'
 import NewCollections from '../Components/NewCollections/NewCollections'
 import NewsLetter from '../Components/NewsLatter/NewsLetter'
+import Footer from '../Components/Footer/Footer'
 
 
 export default function Shop() {
@@ -14,7 +15,7 @@ export default function Shop() {
     <Offers/>
     <NewCollections/> 
     <NewsLetter/>
-   
+   <Footer/>
     </div>
   )
 }
