@@ -158,6 +158,23 @@ relatedproducts.jsx file tag write in product.jsx file..
   <!-- i am create today descrition box and realted products.. part.. -->
   <!-- stop 2:23:19 -->
   
+  Date :31-07-2024
+  add to cart button logic
+
+  in shopcontext .jsx:first create cart context function getDefaultcart 
+  create useState for cart and pass the getDefaultcart as argument
+   create add to cart function
+   create remove to cart function and pass the itemid
+
+productDisplay:call the addtocart function using useContext and addto cart create onclick function
+
+
+after create one folder cartItems
+after create cartitems.jsx and cartitems.css
+after create html structure
+ i am create cart total value and price promocode 
+
+  <!-- stop in 2:51:23 -->
 
 
 
