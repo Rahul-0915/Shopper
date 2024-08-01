@@ -135,7 +135,46 @@ date 28/7/24
 
   <!-- stop  2:10:37--> product description box :--
   
+* description box for product page:--...
 
+create new descriptionbox folder in commponents folder
+create new descrition.jsx file within description folder
+create new descriptionbox css file within descrition folder
+import css file in descriptionbox.jsx file
+
+descriptionbox.jsx file tag write in product.jsx file
+
+*create realted product commponets fro product page...
+
+  create RelatedProducts folder in commponetns folder
+  create RelatedProducts.jsx file within folder
+  create css file and import within relatedproducts.jsx file
+
+relatedproducts.jsx file tag write in product.jsx file..
+
+*page scroll function 
+  go item.jsx and write onclick function within img tag...
+
+  <!-- i am create today descrition box and realted products.. part.. -->
+  <!-- stop 2:23:19 -->
+  
+  Date :31-07-2024
+  add to cart button logic
+
+  in shopcontext .jsx:first create cart context function getDefaultcart 
+  create useState for cart and pass the getDefaultcart as argument
+   create add to cart function
+   create remove to cart function and pass the itemid
+
+productDisplay:call the addtocart function using useContext and addto cart create onclick function
+
+
+after create one folder cartItems
+after create cartitems.jsx and cartitems.css
+after create html structure
+ i am create cart total value and price promocode 
+
+  <!-- stop in 2:51:23 -->
 
 
 
