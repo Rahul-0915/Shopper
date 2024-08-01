@@ -31,7 +31,6 @@
     font-size: 30px;
     font-weight: 600;
     text-decoration: underline;
-    
     background:  linear-gradient(360deg, lightblue 20%,blue 40%,red 5%, rgb(210, 223, 64) 60%);
     -webkit-background-clip: text;
     color:transparent;
