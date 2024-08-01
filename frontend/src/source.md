@@ -135,7 +135,29 @@ date 28/7/24
 
   <!-- stop  2:10:37--> product description box :--
   
+* description box for product page:--...
 
+create new descriptionbox folder in commponents folder
+create new descrition.jsx file within description folder
+create new descriptionbox css file within descrition folder
+import css file in descriptionbox.jsx file
+
+descriptionbox.jsx file tag write in product.jsx file
+
+*create realted product commponets fro product page...
+
+  create RelatedProducts folder in commponetns folder
+  create RelatedProducts.jsx file within folder
+  create css file and import within relatedproducts.jsx file
+
+relatedproducts.jsx file tag write in product.jsx file..
+
+*page scroll function 
+  go item.jsx and write onclick function within img tag...
+
+  <!-- i am create today descrition box and realted products.. part.. -->
+  <!-- stop 2:23:19 -->
+  
 
 
 
