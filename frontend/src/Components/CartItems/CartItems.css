@@ -1,5 +1,6 @@
 .cartitmes{
       margin:100px 170px;
+      
 }
 .cartitems hr{
       height:3px;
@@ -10,18 +11,20 @@
       display: grid;
       grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
       align-items: center;
-      gap:75px;
+      gap: 30px;
       padding: 20px 0px;
       color: #454545;
       font-size: 18px;
       font-weight: 600;
+      
 }
 .cartitems-format{
-      font-size:17px;
-      font-weight: 500;
+      font-size:16px;
+      font-weight: 400;
 }
 .carticon-product-icon{
-      height: 62px;
+      height: 75px;
+      width: 73px;
 
 }
 .cartitems-remove-icon{
@@ -60,11 +63,13 @@
       border: none;
       outline: none;
       background: #ff5a5a;
-      color: #fff;
+      background: linear-gradient(90deg, rgb(148, 228, 230) 5%, rgb(71, 63, 63) 100%);
+      color:black;
       font-size: 16px;
       font-weight: 600;
       cursor: pointer;
 }
+
 .cartitems-promocode{
       flex: 1;
       font-size: 16px;
