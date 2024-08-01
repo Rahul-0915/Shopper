@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import './Navbar.css';
 // import logonew2 from '../Assets/logonew2.png';
 // import logo from '../Assets/logo.png';
@@ -7,11 +7,13 @@ import logo from '../Assets/bag_logo.png';
 import cart3 from '../Assets/cart3.png';
 
 import { Link } from 'react-router-dom'
+import { ShopContext } from '../../Context/ShopContext';
 
 export default function Navbar() {
 
   // use for status line in current or active page {red line}
-  const [menu, setmenu] = useState("Shop")
+  const [menu, setmenu] = useState("Shop");
+  const {getTotalCartItems} = useContext(ShopContext);
 
 
   return (
@@ -45,7 +47,7 @@ export default function Navbar() {
         </Link>
 
         {/*use for cart show O value  */}
-        <div className="nav-cart-count">0</div>
+        <div className="nav-cart-count">{getTotalCartItems()}</div>
       </div>
       <br />
       <br />
