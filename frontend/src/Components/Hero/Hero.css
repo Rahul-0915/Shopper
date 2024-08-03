@@ -5,11 +5,13 @@
       background:  linear-gradient(180deg, cadetblue 5%, #e1ffea22 60%);
       /* color: cadetblue; */
       display: flex;
+      /* background-color: red; */
+      margin-top: 100px;
 }
 /*hero-left new arrivals css*/
 .hero-left{
       flex:1; 
-      margin-top: 120px;
+      /* margin-top: 120px; */
       display: flex;
       flex-direction: column;
       justify-content: center;

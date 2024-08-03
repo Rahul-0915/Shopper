@@ -175,6 +175,7 @@ after create html structure
  i am create cart total value and price promocode 
 
   <!-- stop in 2:51:23 -->
+  <!-- stop in 2:58:33 -->
 
 
 
