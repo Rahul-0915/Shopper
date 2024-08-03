@@ -76,6 +76,7 @@ let all_product = [
     image: p5_img,
     new_price: 899,
     old_price: 2599,
+
   },
   {
     id: 6,
@@ -132,6 +133,7 @@ let all_product = [
     image: p12_img,
     new_price: 560,
     old_price: 1000,
+
   },
   {
     id: 13,
@@ -148,6 +150,7 @@ let all_product = [
     image: p14_img,
     new_price: 1500,
     old_price: 2599,
+
   },
   {
     id: 15,
