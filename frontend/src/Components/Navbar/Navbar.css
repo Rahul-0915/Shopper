@@ -43,6 +43,7 @@
     text-decoration: underline;
     background:  linear-gradient(360deg, lightblue 20%,blue 40%,red 5%, rgb(210, 223, 64) 60%);
     -webkit-background-clip: text;
+    background-clip: text;
     color:transparent;
     
     
@@ -59,9 +60,10 @@
     color: #626262;
     margin: auto;
     width: 35%;
-    font-size: 15px;
+    font-size: 18px;
     padding: 2px;
     font-weight: 500;
+    height: 45px;
 }
 
 /* css for nav-menu list tag  */
@@ -187,7 +189,9 @@
     border-bottom-left-radius: 10px;
     border: none;
     outline: none;
-    text-align: center;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 2px;
 }
 .s-btn{
     /* background-color: orange; */
@@ -199,5 +203,4 @@
     text-align: center;
     align-items: center;
     padding: 5px;
-    
 }
