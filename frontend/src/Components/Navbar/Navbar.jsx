@@ -28,7 +28,11 @@ export default function Navbar() {
         <Link to="/"><img src={logo} alt="" /></Link>
         <Link className='links' to="/"><p>Shopstar</p></Link>
       </div>
+      <div className="s-box">
       <input type="search" name="" id="" placeholder= '   Search here..' className='search-bar' />
+      <div className="s-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+      </div>
+  
       {/*    */}
       {/* that red line for activepage use onclick () and ternary operater ,and link use to route topic  */}
       {/* <ul className='nav-menu'>
