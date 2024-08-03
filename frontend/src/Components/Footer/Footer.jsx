@@ -37,7 +37,7 @@ const Footer = () => {
                   {/* copy right div */}
                   <div className="footer-copyright">
                         <hr />
-                        <p>Copyright @2024 - All Right Reserved By APR_Store</p>
+                        <p>Copyright @2024 - All Right Reserved By Shopstar</p>
                   </div>
             </div>
       )

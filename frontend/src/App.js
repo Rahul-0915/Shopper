@@ -16,11 +16,16 @@ import kid_banner from './Components/Assets/banner_kids.png';
 import Product from './Pages/Product';
 import Nopage from './Components/NopageFound';
 
+
+
+
 function App() {
   return (
     <div>
       {/* Browserouter topic pending....for learning */}
+
       <BrowserRouter>
+      
         <Navbar />
         <Routes>
           <Route path='/' element={<Shop />} />

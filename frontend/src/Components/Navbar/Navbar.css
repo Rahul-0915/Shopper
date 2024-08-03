@@ -1,10 +1,19 @@
+
+/* main box css */
+.main-box{
+    background-color: black;
+    top: 0;
+    position: fixed;
+    width: 100%;
+
+}
 /* main div navbar css  */
 .navbar {
     display: flex;
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
-    position:fixed;
+    /* position:fixed; */
     background-color: white;
     width: 100%;
     height:35px;
@@ -29,6 +38,7 @@
 .nav-logo p {
     color: #171717;
     font-size: 30px;
+    color: white;
     font-weight: 600;
     text-decoration: underline;
     
@@ -36,16 +46,22 @@
     -webkit-background-clip: text;
     color:transparent;
     
+    
 }
+
 
 /* css for nav-menu div */
 .nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 50px;
+    gap: 70px;
+    /* background-color: orange; */
     color: #626262;
+    margin: auto;
+    width: 35%;
     font-size: 15px;
+    padding: 2px;
     font-weight: 500;
 }
 
@@ -156,4 +172,12 @@
     color: black;
     /* color: #626262; */
     color:lightseagreen;
+}
+/* search bar ccc */
+.search-bar{
+    width: 40%;
+    /* background-color: red; */
+    border-radius: 10px;
+    border: none;
+    text-align: center;
 }
