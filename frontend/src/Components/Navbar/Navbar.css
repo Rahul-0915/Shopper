@@ -2,6 +2,7 @@
 /* main box css */
 .main-box{
     background-color: black;
+    /* color: black; */
     top: 0;
     position: fixed;
     width: 100%;
@@ -22,6 +23,7 @@
     color: white;
 
 }
+
 
 /* nav-logo div css */
 .nav-logo {
@@ -74,6 +76,7 @@
     align-items: center;
     justify-content: center;
     gap: 3px;
+    
     
 }
 
