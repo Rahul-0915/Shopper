@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Navbar from "./Components/Navbar/Navbar";
 // it used for routes topic..
