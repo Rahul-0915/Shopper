@@ -1,0 +1,51 @@
+.navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 6px 40px;
+      box-shadow: 0 1px 3px -2px #000;
+      margin-bottom: 1px;
+      background: white;
+      height: 70px;
+      background-color: black;
+
+}
+.nav-logo{
+      width:100px;
+      height: 90px;
+      padding-bottom: 6px;
+}
+.shopstar{
+    color: #171717;
+    margin-top: 15px;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+    background:  linear-gradient(360deg, lightblue 20%,blue 40%,red 5%, rgb(210, 223, 64) 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+}
+.admin-panel{
+      color: rgb(169, 169, 210);
+      font-size: 16px;
+      text-decoration: none;
+      margin-top: 60px;
+      margin-left: -175px;
+}
+.navbar-header{
+      display: flex;
+      align-items: center;
+      padding: 10px 40px;
+      box-shadow: 0 1px 3px -2px #000;
+      margin-bottom: 1px;
+      background: black;
+      height: 60px;
+      background-color: black;
+}
+
+
+.nav-profile{
+     width:75px; 
+}
