@@ -54,3 +54,19 @@
 .offers-right img{
       height: 320px;
 }
+.offerdiv{
+      
+/* background-color: red; */
+text-align: center;
+width: 90%;
+margin: auto;
+display: flex;
+
+}
+.offerdiv img{
+      
+width: 100%;
+margin: auto;
+margin-top: -100px;
+margin-bottom: -40px;
+}
