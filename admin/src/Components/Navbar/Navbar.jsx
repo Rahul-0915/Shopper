@@ -1,7 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 import navlogo from '../../assets/nav-logo.png';
-import navProfile from '../../assets/nav-profile.svg';
+import navProfile from '../../assets/nav-profile.png';
+import drop_down from '../../assets/drop_down.png';
 
 const Navbar = () => {
   return (
@@ -12,9 +13,11 @@ const Navbar = () => {
      <p className='admin-panel'>Admin Panel</p>
      </div>
     
-     
-      
+
+      <div className='profile'>
        <img src={navProfile} alt="" className='nav-profile'/> 
+       <img src={drop_down} alt="" className='drop'/>
+       </div>
     </div>
   )
 }
