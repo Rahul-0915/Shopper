@@ -9,12 +9,12 @@ const CartItems = () => {
       return (
             <div className='cartitmes'>
                   <div className="cartitems-format-main">
-                        <p>Products</p>
-                        <p>Title</p>
-                        <p>Price</p>
-                        <p>Quantity</p>
-                        <p>Total</p>
-                        <p>Remove</p>
+                        <p className='ptag' >Products</p>
+                        <p className='ptag' >Title</p>
+                        <p className='ptag' >Price</p>
+                        <p className='ptag' >Quantity</p>
+                        <p className='ptag' >Total</p>
+                        <p className='ptag' >Remove</p>
                   </div>
                   <hr />
                   {all_product.map((e) => {
@@ -37,6 +37,13 @@ const CartItems = () => {
 
                   
                   <div className="cartitems-down">
+                  <div className="cartitems-promocode">
+                              <p>If You Have a Prome Code , Enter it Here</p>
+                              <div className="cartitems-promobox">
+                                    <input type="text" placeholder='promo Code' />
+                                    <button>SUBMIT</button>
+                              </div>
+                        </div>
                         <div className="cartitems-total">
                               <h1>Cart Total</h1>
                               <div>
@@ -57,13 +64,7 @@ const CartItems = () => {
                               </div>
                               <button>PROCEED TO CHECKOUT</button>
                         </div>
-                        <div className="cartitems-promocode">
-                              <p>If You Have a Prome Code , Enter it Here</p>
-                              <div className="cartitems-promobox">
-                                    <input type="text" placeholder='promo Code' />
-                                    <button>SUBMIT</button>
-                              </div>
-                        </div>
+                        
                   </div>
 
             </div>
