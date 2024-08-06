@@ -14,7 +14,10 @@ const Navbar = () => {
      </div>
     
 
-      <div className='profile'>
+      <div className='profile'> 
+
+
+        {/* comment */}
        <img src={navProfile} alt="" className='nav-profile'/> 
        <img src={drop_down} alt="" className='drop'/>
        </div>
