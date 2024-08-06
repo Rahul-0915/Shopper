@@ -1,0 +1,71 @@
+.navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 7px 10px;
+      box-shadow: 0 1px 3px -2px #000;
+      margin-bottom: 1px;
+      background: white;
+      height: 50px;
+      background-color: black;
+
+}
+.nav-logo{
+      width:100px;
+      height: 90px;
+      padding-bottom: 6px;
+}
+.shopstar{
+    color: #171717;
+    margin-top: 15px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+    background:  linear-gradient(360deg, lightblue 20%,blue 40%,red 5%, rgb(210, 223, 64) 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+}
+.admin-panel{
+      color: rgb(169, 169, 210);
+      font-size: 15px;
+      text-decoration: none;
+      margin-top: 50px;
+      margin-left: -130px;
+}
+.navbar-header{
+      display: flex;
+      align-items: center;
+      padding: 10px 40px;
+      box-shadow: 0 1px 3px -2px #000;
+      margin-bottom: 1px;
+      background: black;
+      height: 45px;
+      background-color: black;
+}
+
+
+.profile{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 40px;
+      box-shadow: 0 1px 3px -2px #000;
+      margin-bottom: 1px;
+      background: black;
+      height: 45px;
+      background-color: black;
+}
+.nav-profile{
+     width:80px;
+     height: 65px;
+     border-radius: 100px;
+}
+.drop{
+      height: 30px;
+      width:30px;
+      margin-left: 5px;
+      margin-top: 10px;
+
+}
