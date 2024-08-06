@@ -80,3 +80,103 @@ in the popular div use javascript map function (it is same the call json) .
 
 <!-- now i am stop in 1.00.55 in video -->
 
+
+* Date:-23-07-2024
+all css change for 100 zoom for browser.
+
+
+*New Collections
+for this create one Folder NewCollections in component
+->In this folder create two file NewCollections.jsx and NewCollections.css
+in NewCollections.jsx use  newcollection.js data for map 
+Item file also use for this it is same like popular section
+
+*News Letter
+
+for this create one Folder NewsLetter in component
+->In this folder create two file NewsLetter.jsx and NewsLetter.css
+
+* footer section
+or this create one Folder footer in component
+->In this folder create two file Footer.jsx and Footer.css
+* footer section complete than 
+you can add component to app.js file beacuse all page containe footer
+
+
+<!-- stop in 1:39:11 -->
+
+date :26/7/24
+create signup using jsx and css form
+ and modify footer 
+
+<!-- start it 1.40.00 -->
+
+date 28/7/24
+
+* create product page ..
+
+  1. write code product.jsx file
+  2.then create breadcums folder and 
+  3.create bredcum jsx and css file
+  4.import css file in breadcum.jsx
+  5. write code breadcum.jsx and import arrow icon 
+  6.add bredcums tag in product.jsx file with props
+  7.link img with the product..so go to item.jsx and first img tag wrap in Link tag 
+  8.display product deatil in scrren 
+  
+  * create productdisplay page
+
+  1 craete new folder productdisplay in commponetns folder
+  2.productdisplay jsx and css file create within productdisplay folder
+  3. write code in productdisplay.jsx
+  4.import icon 
+  5.import productdisplay.jsx file in product.jsx page
+  6 write jsx code in productdisplay.jsx file and css code in css file
+
+  <!-- stop  2:10:37--> product description box :--
+  
+* description box for product page:--...
+
+create new descriptionbox folder in commponents folder
+create new descrition.jsx file within description folder
+create new descriptionbox css file within descrition folder
+import css file in descriptionbox.jsx file
+
+descriptionbox.jsx file tag write in product.jsx file
+
+*create realted product commponets fro product page...
+
+  create RelatedProducts folder in commponetns folder
+  create RelatedProducts.jsx file within folder
+  create css file and import within relatedproducts.jsx file
+
+relatedproducts.jsx file tag write in product.jsx file..
+
+*page scroll function 
+  go item.jsx and write onclick function within img tag...
+
+  <!-- i am create today descrition box and realted products.. part.. -->
+  <!-- stop 2:23:19 -->
+  
+  Date :31-07-2024
+  add to cart button logic
+
+  in shopcontext .jsx:first create cart context function getDefaultcart 
+  create useState for cart and pass the getDefaultcart as argument
+   create add to cart function
+   create remove to cart function and pass the itemid
+
+productDisplay:call the addtocart function using useContext and addto cart create onclick function
+
+
+after create one folder cartItems
+after create cartitems.jsx and cartitems.css
+after create html structure
+ i am create cart total value and price promocode 
+
+  <!-- stop in 2:51:23 -->
+  <!-- stop in 2:58:33 -->
+
+
+
+
