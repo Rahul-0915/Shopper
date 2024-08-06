@@ -177,6 +177,27 @@ after create html structure
   <!-- stop in 2:51:23 -->
   <!-- stop in 2:58:33 -->
 
+--Backend
+  first of all create backend folder
+  in this folder we use various technology thats why we downloand packege
+  * npm init --for node-modules
+  * npm i express - for server
+  * npm i jsonwebtoken - for create API
+  * npm i mongoose - for databse
+  * npm i multer - for upload image
+  * npm i  cors - we can add permission to access backend
+  in backend folder we create index.js file
+  it is main file all code we written in this file
+  we define port in this file
 
+
+  * after you can create two folder in backend 
+  upload /images 
+  * in this you can create upload image code
+  after crate one product schema
+  in this schema id,name,category old price,new price,date ,avilabel it is a product schmea field
+  after you can create request for this and pass the data using postman
+  *id logic
+  increament by 1 
 
 
