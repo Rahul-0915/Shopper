@@ -118,7 +118,7 @@ app.post('/removeproduct',async (req,res)=>{
 app.get('/allproducts',async (req,res)=>{
       let products = await Product.find({});
       console.log("All product Fetched");
-      res.send(products)
+      res.send(products);
 })
 
 app.listen(port, (error) => {
