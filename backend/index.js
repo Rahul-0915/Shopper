@@ -1,103 +1,89 @@
-//define port
 const port = 4000;
-//include all packege
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 const multer = require("multer");
-//express server path
 const path = require("path");
 const cors = require("cors");
-const { error } = require("console");
 
-//will get request and give the response it convert or parse throw json  
 app.use(express.json());
-//using this our project connect express to 4000 port
 app.use(cors());
-//connect to database
 
-// Database connection with mongoDB
+//Database connection with mongodb
 
-mongoose.connect("mongodb://localhost:27017/Ecommerce");
+mongoose.connect("mongodb://localhost:27017/e-commerce");
 
 //API creation
-app.get("/",(req,res)=>{
-      res.send("Express App is Running");
-});
 
-//image upload 
-//image storage Engine
+app.get("/", (req, res) => {
+      res.send("Express App is Running")
+})
+//Image Storage Engine
 const storage = multer.diskStorage({
-      destination:'./upload/images',
-      filename:(req,file,cb)=>{
-            return cb(null,`${file.fieldname}_${Date.now()}${path.extname(file.originalname)}`)
+      destination: './upload/images',
+      filename: (req, file, cb) => {
+            return cb(null, `${file.fieldname}_${Date.now()}${path.extname(file.originalname)}`)
+
       }
 })
-//upload function and pass to configration
-const upload = multer({storage:storage})
-//Creating Upload Endpoint for images
-//for get and store images
-app.use('/imges',express.static('upload/images'))
-//for upload image
-app.post("/upload",upload.single('product'),(req,res)=>{
+const upload = multer({ storage: storage })
+//Creating upload Endpoint for images
+app.use('/images', express.static('upload/images'))
+
+app.post("/upload", upload.single('product'), (req, res) => {
       res.json({
-            succes:1,
-            image_url:`http://localhost:${port}/images/${req.file.filename}`,
+            success: 1,
+            image_url: `http://localhost:${port}/images/${req.file.filename}`
       })
 })
 
-//Schema for creating Products
-const Product = mongoose.model("Product",{
-      id:{
+// Schema for crating Products
+const Product = mongoose.model("Product", {
+      id: {
             type: Number,
-            required:true,
+            required: true,
       },
-      name:{
-            type:String,
-            required:true,
+      name: {
+            type: String,
+            required: true,
       },
-      image:{
-            type:String,
-            require:true,
+      image: {
+            type: String,
+            required: true,
       },
-      category:{
-            type:String,
-            required:true,
+      category: {
+            type: String,
+            required: true,
       },
-      new_price:{
-            type:Number,
-            required:true,
+      new_price: {
+            type: Number,
+            required: true,
       },
-      old_price:{
-            type:Number,
-            required:true,
+      old_price: {
+            type: Number,
+            required: true,
       },
-      date:{
-            type:Date,
-            default:Date.now,
+      date: {
+            type: Date,
+            default: Date.now,
       },
-      avilable:{
-            type:Boolean,
-            default:true,
+      avilable: {
+            type: Boolean,
+            default: true,
       },
-});
-
-//endpoint 
+})
+// Add Product
 app.post('/addproduct',async (req,res)=>{
-      //it is find in product table products
       let products = await Product.find({});
       let id;
-      //if there is product is not empty than increase id
       if(products.length>0)
       {
             let last_product_array = products.slice(-1);
             let last_product = last_product_array[0];
             id = last_product.id+1;
       }
-      //if there is no product in database
-      else
-      {
+      else{
             id=1;
       }
       const product = new Product({
@@ -109,41 +95,38 @@ app.post('/addproduct',async (req,res)=>{
             old_price:req.body.old_price,
       });
       console.log(product);
-      //save data in database
       await product.save();
       console.log("Saved");
-      //response
       res.json({
-            succes:true,
+            success:true,
             name:req.body.name,
       });
-});
+})
 
-//Create API for deleting products
-
+//remove product
+//create API for deleting product
 app.post('/removeproduct',async (req,res)=>{
       await Product.findOneAndDelete({id:req.body.id});
       console.log("Removed");
       res.json({
-            succes:true,
+            success:true,
             name:req.body.name
       })
 })
-
-//Creating API for getting all products
+//Display product
+//createing API for getting all products
 app.get('/allproducts',async (req,res)=>{
       let products = await Product.find({});
-      console.log("All Product Fetched");
-      res.send(products);
+      console.log("All product Fetched");
+      res.send(products)
 })
 
-app.listen(port,(error)=>{
-      if (!error)
-      {
-            console.log("Server Running on Port "+port);
+app.listen(port, (error) => {
+      if (!error) {
+            console.log("Server running on Port " + port);
       }
-      else
-      {
-            console.log("Error:"+error);
+      else {
+            console.log("Error :" + error);
       }
 })
+
