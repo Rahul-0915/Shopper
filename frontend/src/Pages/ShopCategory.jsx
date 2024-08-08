@@ -11,6 +11,8 @@ import Footer from '../Components/Footer/Footer';
 const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext);
   return (
+
+    
     //create one div shop category to add image banner and other data
     <div className='shop-category'>
       {/* banner image*/}
