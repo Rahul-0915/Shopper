@@ -208,12 +208,17 @@ app.get('/newcollections', async (req, res) => {
 })
 //creating endpoint for popular in women section
 app.get('/popularinwomen', async (req, res) => {
-      let products = await Product.find({ category: "women" });
+      let products = await Product.find({ category:"women" });
       let popular_in_women = products.slice(0, 4);
       console.log("Pupular in Women Fetched");
       res.send(popular_in_women);
 })
-
+app.get('/relatedproducts',async(req,res)=>{
+      let products = await Product.find({})
+      let related_products = products.slice(0,4);
+      console.log("Releted Products");
+      res.send(related_products);
+})    
 //creating middelware to fetch user
 const fetchUser = async (req, res, next) => {
       const token = req.header('auth-token');
