@@ -3,13 +3,16 @@ import './CSS/LoginSignup.css'
 export default function LoginSignup() {
   const [state, setState] = useState("Login");
   const [formData,setFormData] = useState({
+
     username:"",
     password:"",
     email:""
   })
+  
 
   const changeHandler = (e)=>{
     setFormData({...formData,[e.target.name]:e.target.value})
+    
   }
 
   const login = async () => {
@@ -65,10 +68,10 @@ export default function LoginSignup() {
         {/* fildes */}
         <div className="loginsignup-fields">
           {state === "Sign Up" ? <input  type="text" name="username" value={formData.username} onChange={changeHandler} id="" placeholder='UserName' /> : <></>}
-          <input type="email" name="email" value={formData.email} onChange={changeHandler} id="" placeholder='Email Address' />
+          <input type="email" name="email" value={formData.email} onChange={changeHandler} id="" placeholder='Email Address'  />
           <input type="password" name="password" value={formData.password} onChange={changeHandler} id="" placeholder='Password' />
         </div>
-        <button onClick={() => { state === "Login" ? login() : signup() }}>Continue</button>
+        <button onClick={() => { state === "Login"? login() : signup() }}>Continue</button>
         {state === "Sign Up" ? <p className='loginsignup-login'>Alrady have an account ?  <span onClick={() => { setState("Login") }}> Login here</span></p> : <p className='loginsignup-login'>Create an Account ?<span onClick={() => { setState("Sign Up") }}>Click here</span></p>}
 
 
@@ -78,7 +81,7 @@ export default function LoginSignup() {
           <p>By Continuing,i agree to the terems of the use & privacy Policy.</p>
         </div>
       </div>
-
+    if(ha)
     </div>
   )
 }
