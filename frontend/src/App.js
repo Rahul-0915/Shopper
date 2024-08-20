@@ -17,7 +17,7 @@ import women_banner from './Components/Assets/banner_women.png';
 import kid_banner from './Components/Assets/banner_kids.png';
 import Product from './Pages/Product';
 import Nopage from './Components/NopageFound';
-
+import BuyNow from './Components/BuyNow/BuyNow';
 
 
 
@@ -40,6 +40,7 @@ function App() {
           <Route />
           <Route path='/Cart' element={<Cart />} />
           <Route path='/login' element={<LoginSignup />} />
+          <Route path='/BuyNow' element={<BuyNow />} />
         </Routes>
       </BrowserRouter>
     </div >

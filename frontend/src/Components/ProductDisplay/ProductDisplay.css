@@ -106,6 +106,7 @@ box-shadow: 3px 3px 3px 3px gainsboro;
 .buttons {
     display: flex;
     gap: 23px;
+    
 
 }
 
@@ -132,4 +133,7 @@ box-shadow: 3px 3px 3px 3px gainsboro;
 
 .ProductDisplay-right-category span {
     font-weight: 600;
+}
+.linkid{
+    text-decoration: none;
 }
