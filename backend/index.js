@@ -113,13 +113,38 @@ app.post('/removeproduct', async (req, res) => {
             name: req.body.name
       })
 })
-//Display product
+
 //createing API for getting all products
 app.get('/allproducts', async (req, res) => {
       let products = await Product.find({});
       console.log("All product Fetched");
       res.send(products);
 })
+//for update
+app.put('/update', upload.single('image'), async (req, res) => {
+      try {
+        const { id } = req.body; // Extract the id
+        const updateData = { ...req.body };
+    
+        // Check if a new image was uploaded
+        if (req.file) {
+          updateData.image = `http://localhost:${port}/images/${req.file.filename}`;
+        }
+        const result = await Product.updateOne({ id: id }, updateData);
+
+    res.json({ success: true, message: "Data Updated", data: result });
+  } catch (error) {
+    console.error('Error updating product:', error);
+    res.status(500).json({ success: false, message: "Error updating product" });
+  }
+});
+// app.put('/update',async(req,res)=>{
+//       console.log(req.body)
+//        const {id,...rest}=req.body
+//        console.log(rest)
+//       const data = await Product.updateOne({_id:id},rest)
+//       res.send({success:true,message:"Data Updated",data:data})
+// })
 
 // Schema creating for user Model
 

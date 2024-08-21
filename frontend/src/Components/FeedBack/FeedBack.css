@@ -1,0 +1,64 @@
+.mainfeed{
+      background-color: aliceblue;
+      color: black;
+  }
+  .h2
+  {
+      color: rgb(48, 59, 84);
+      text-align: center;
+      font-size: 50px;
+      border-bottom: 2px solid black;
+  }
+  .container
+  {
+      background-color:white;
+      width: 70%;
+      height: auto;
+      margin: auto;
+      border: 1.5px solid orange;
+      border-radius: 20px;
+      margin: 100px auto;
+  }
+  table
+  {
+      font-size: 15px;
+  }
+  
+  input{
+      border: none;
+      outline: none;
+      border: 1px solid orange    ;
+  }
+  td
+  {
+      padding: 10px 20px 0px 0px;
+  }
+  .txt
+  {
+      width: 400px;
+      height: 50px;
+      border-radius: 8px;
+  }
+  form{
+      
+      align-items: center;
+      padding: 30px;
+  }
+  .txtarea
+  {
+      width: 830px;
+      height: 150px;
+      border-radius: 8px;
+      border: 1px solid orange;
+  }
+  .btn
+  {
+      background: linear-gradient(90deg, rgb(148, 228, 230) 5%, rgb(71, 63, 63) 100%);
+      text-align: center;
+      width: 830px;
+      border: none;
+      outline: none;
+      height: 50px;
+      border-radius: 8px;
+      font-size: 25px;
+  }

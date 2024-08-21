@@ -6,6 +6,7 @@ const  AddProduct = ()=> {
 
     // for upload image..
     const [image, setImage] = useState(false);
+
     const [productDetails,setProductDetails] = useState({
         name:"",
         image:"",
