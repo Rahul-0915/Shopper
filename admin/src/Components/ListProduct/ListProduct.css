@@ -3,17 +3,17 @@
       flex-direction: column;
       align-items: center;
       width: 100%;
-      height: 740px;
+      height: 700px;
       padding: 10px 50px;
       margin: 30px;
       border-radius: 6px;
-      background: white;
+      background: rgb(252, 251, 251);
 
 }
 .listproduct-format-main{
       display: grid;
-      grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
-      gap:10px;
+      grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap:5px;
       width:100%;
       padding: 20px 0px;
       color:#454545;
@@ -34,4 +34,35 @@
 }
 .listproduct-allproduct{
       overflow-y: auto;
+}
+.listproduct-allproduct button{
+      width:50px;
+      height: 30px;
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+}
+.edit-product form .close-btn{
+      margin-left: auto;
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      border: 1px solid #000;
+      cursor: pointer;
+}
+.list-product-btn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0px 20px;
+      padding: 5px 10px ;
+      border-radius: 6px;
+      background: #dad3d3;
+      gap: 20px;
+      cursor: pointer;  
+      border: none;
 }
