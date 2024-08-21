@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import '../BuyNow/BuyNow.css';
 import { ShopContext } from '../../Context/ShopContext';
 
+import {Link} from 'react-router-dom';
 const BuyNow = (props) => {
       const { getTotalCartAmount} = useContext(ShopContext)
  
@@ -54,7 +55,7 @@ const BuyNow = (props) => {
                   <h3>Total</h3>
                   <h3>₹{getTotalCartAmount()}</h3>
               </div> <br />
-              <button>ORDER</button>
+             <Link to='/FeedBack' className='feeds'><button >ORDER</button></Link> 
           </div>
 
       </div>

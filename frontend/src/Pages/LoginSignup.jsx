@@ -81,7 +81,7 @@ export default function LoginSignup() {
           <p>By Continuing,i agree to the terems of the use & privacy Policy.</p>
         </div>
       </div>
-    if(ha)
+    
     </div>
   )
 }

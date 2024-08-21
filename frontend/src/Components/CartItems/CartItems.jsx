@@ -2,10 +2,19 @@ import React, { useContext } from 'react';
 import './CartItems.css';
 import { ShopContext } from '../../Context/ShopContext';
 import remove_icon from '../Assets/cart_cross_icon.png';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 const CartItems = () => {
+      const navigate = useNavigate();
+      const handleOrder = () => {
+            if (getTotalCartAmount() === 0) {
+                alert("Please add products to your cart.");
+            } else {
+                navigate('/BuyNow');  // Navigate to the checkout page without refreshing
+            }
+        };
+
       const { getTotalCartAmount, all_product, cartItems, removeFromCart } = useContext(ShopContext)
 
       return (
@@ -64,10 +73,10 @@ const CartItems = () => {
                                           <h3>₹{getTotalCartAmount()}</h3>
                                     </div>
                               </div>
-                              {/* <Link to={`/buynow/${product.id}`} className='linkid'>
+                              {/* <Link to={`/'/buynow'/${product.id}`} className='linkid'>
                     <button onClick={()=>{buyNow(product.id)}}>PROCEED TO CHECKOUT</button>
                     </Link> */}
-                            <Link to='/buynow'><button>PROCEED TO CHECKOUT</button></Link> 
+                            <button onClick={handleOrder}>PROCEED TO CHECKOUT</button>
                         </div>
                         
                   </div>
